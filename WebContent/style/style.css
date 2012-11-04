@@ -1,0 +1,155 @@
+.intervention_table {
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	color : black;
+	border-collapse : collapse;
+}
+
+.radio_table {
+	width: 86%;
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 7%;
+	color : black;
+	border-collapse : collapse;
+}
+
+td{
+	border-top : 1px solid Gainsboro ;
+}
+
+.radio_table td, .radio_table tr, .radio_table th{
+	border : 1px solid Gainsboro;
+}
+
+td#nom, td#bdate, td#edate {
+	border-top : none;
+}
+
+td#line_name {
+	text-align : left;
+}
+
+header {
+	text-align: center;
+}
+
+body {
+	margin-top : 0px;
+	font-size : 17px;
+	font-family: "Arial", Georgia, sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	border : 1px solid Gainsboro;
+    -webkit-box-shadow: 0px 0px 10px #000000;  /*Safari */
+	box-shadow: 0px 0px 10px #000000;
+	background-color: #E1EDED;
+}
+
+footer {
+	border-top: 1px solid #D9E4E3;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+}
+
+nav {
+	position: absolute;
+	/*left: 0;*/
+	width: 80%;
+	border-bottom: 1px solid #D9E4E3;
+	background-image:url('../image/bg_img.jpg');
+	background-repeat:repeat-x;
+}
+
+nav ul {
+	margin: 0 auto;
+	list-style: none;
+	font-family:"Arial", Georgia, sans-serif;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color : gray;
+	margin-right: 20px;
+	width: 140px;
+	text-align: center;
+	vertical-align : middle;
+	text-decoration : none;
+}
+
+h3 {
+	font-size :30px;
+	font-weight: bold;
+	text-align : left;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 0em;
+}
+
+h4 {
+	font-size :20px;
+	font-weight: bold;
+	text-align : center;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 0em;
+}
+
+#content {
+	padding-top: 25px;
+	text-align: left;
+	padding-left: 2%;
+	background-color: #FFFFFF;
+}
+
+#h2 {
+	font-size : 20px;
+	color : #38AD9D;
+	margin-right: 20px;
+}
+
+.register-form {
+	margin-top: 10px;
+}
+
+.register-form label {
+	width: 200px;
+	display: block;
+	float: left;
+	/*text-align : right;*/
+}
+
+div {
+	margin-top : 10px;
+}
+
+div#description {
+	margin-top : 50px;
+	margin-left : 50px;
+}
+
+section#content a:-webkit-any-link {
+	color: -webkit-link;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#popup, #message, #fail, #sucess {
+    display: none;
+    float: left;
+    text-align: center;
+    margin-left : 10%;
+    margin-right : 10%;
+    width: 60%;
+    position: fixed;
+    z-index: 100;
+    top: 25px;
+    background-color : white;
+    border : 1px solid Gainsboro;
+    -webkit-box-shadow: 5px 5px 5px #000000;  /*Safari */
+	box-shadow: 0px 0px 25px #000000;
+}
